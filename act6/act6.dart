@@ -16,9 +16,11 @@ class Stack<T> {
 }
 void main() {
   var stack = Stack<int>();
-  stack.push(1);
-  stack.push(2);
-  stack.push(3);
+  stack.push(10);
+  stack.push(20);
+  stack.push(30);
+  stack.push(40);
+  stack.push(50);
   
   print('Popping from stack: ${stack.pop()}'); 
   print('Is stack empty? ${stack.isEmpty()}'); 
